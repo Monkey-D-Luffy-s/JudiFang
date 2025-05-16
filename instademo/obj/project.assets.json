@@ -4816,11 +4816,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hero\\OneDrive\\Desktop\\JudiFang\\instademo\\instademo.csproj",
+      "projectUniqueName": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\instademo.csproj",
       "projectName": "instademo",
-      "projectPath": "C:\\Users\\Hero\\OneDrive\\Desktop\\JudiFang\\instademo\\instademo.csproj",
+      "projectPath": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\instademo.csproj",
       "packagesPath": "C:\\Users\\Hero\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hero\\OneDrive\\Desktop\\JudiFang\\instademo\\obj\\",
+      "outputPath": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
