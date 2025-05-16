@@ -42,7 +42,7 @@ namespace instademo.Controllers
                 {
                     Id = Guid.NewGuid(), 
                     VideoName = Path.GetFileName(file.FileName),
-                    VideoPath = "~/uploads/"+newFileName
+                    VideoPath = newFileName
                 };
                 await context.Reels.AddAsync(obj);
                 await context.SaveChangesAsync();

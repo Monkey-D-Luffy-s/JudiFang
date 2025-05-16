@@ -61,7 +61,7 @@
         @foreach(var video in Model)
         {
             <video autoplay muted loop playsinline>
-                <source src="@video.VideoPath" type="video/mp4">
+                <source src="/uploads/@video.VideoPath" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <div class="reel-overlay">
