@@ -6,6 +6,13 @@
     ViewData["Title"] = "Instagram Reels Style Video";
 }
 
+@{
+    var rand = new Random();
+    var i = rand.Next(1, Model.Count);
+    var RandVideo = Model[i];
+
+}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +20,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"]</title>
     <style>
-        body {
+        .Inst-Container {
         margin: 0;
         padding: 0;
         background-color: #000;
@@ -57,21 +64,64 @@
     </style>
 </head>
 <body>
-    <div class="reel-container">
-        @foreach(var video in Model)
-        {
-            <video autoplay muted loop playsinline>
-                <source src="/uploads/@video.VideoPath" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <div class="reel-overlay">
-                <p>Sample Instagram Reel</p>
-            </div>
-        }
+
+    <div class="Inst-Container">
+        <div class="reel-container">
+
+                <video autoplay loop playsinline>
+                <source src="/uploads/@RandVideo.VideoPath" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="reel-overlay">
+                    <p>Sample Instagram Reel</p>
+                </div>
+     
+        </div>
     </div>
 
     <script>
         // Optional: Add click-to-play/pause functionality
+       const video = document.querySelector('video');
+
+        // Function to check if the video is in the viewport
+        function isElementInViewport(el) {
+            const rect = el.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+
+        // Async function to send a request
+        async function sendAsyncRequest() {
+            try {
+                // Replace with your API endpoint
+                    i = rand.Next(1, Model.Count);
+                    RandVideo = Model[i];
+              
+            } catch (error) {
+                console.error('Error sending request:', error);
+            }
+        }
+
+        // Scroll event listener
+        video.addEventListener('scroll', () => {
+            if (isElementInViewport(video)) {
+                // Send async request when video is in view
+                sendAsyncRequest();
+                // Optionally, play the video
+                if (video.paused) {
+                    video.play();
+                }
+            } else {
+                // Optionally, pause the video when out of view
+                if (!video.paused) {
+                    video.pause();
+                }
+            }
+        });
         const video = document.querySelector('video');
         video.addEventListener('click', () => {
             if (video.paused) {
