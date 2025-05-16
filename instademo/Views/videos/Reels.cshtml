@@ -1,0 +1,85 @@
+﻿@model List<instademo.Models.VideoClass>
+@{
+    ViewData["Title"] = "Reel View";
+}
+@{
+    ViewData["Title"] = "Instagram Reels Style Video";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+        }
+
+        .reel-container {
+        width: 100%;
+        max-width: 450px; /* Typical mobile width for Reels */
+        aspect-ratio: 9 / 16; /* Instagram Reels aspect ratio */
+        background-color: #000;
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px; /* Optional: rounded corners like Instagram */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures video fills container without distortion */
+        display: block;
+        }
+
+        /* Optional: Overlay for controls or text (like Instagram captions) */
+        .reel-overlay {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+        pointer-events: none; /* Prevents overlay from blocking video controls */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="reel-container">
+        @foreach(var video in Model)
+        {
+            <video autoplay muted loop playsinline>
+                <source src="@video.VideoPath" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="reel-overlay">
+                <p>Sample Instagram Reel</p>
+            </div>
+        }
+    </div>
+
+    <script>
+        // Optional: Add click-to-play/pause functionality
+        const video = document.querySelector('video');
+        video.addEventListener('click', () => {
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        });
+    </script>
+</body>
+</html>
