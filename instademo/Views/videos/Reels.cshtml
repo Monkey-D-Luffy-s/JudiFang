@@ -8,13 +8,12 @@
 
 @{
     var rand = new Random();
+    ViewData["Rand"] = rand;
     var i = rand.Next(1, Model.Count);
     var RandVideo = Model[i];
 
 }
 
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,13 +62,13 @@
 
     </style>
 </head>
-<body>
+<body class="position-fixed">
 
     <div class="Inst-Container">
-        <div class="reel-container">
+        <div class="reel-container" >
 
-                <video autoplay loop playsinline>
-                <source src="/uploads/@RandVideo.VideoPath" type="video/mp4">
+                <video autoplay loop playsinline >
+                    <source src="/uploads/@RandVideo.VideoPath" type="video/mp4" onscroll="console.log('scrolling')">
                     Your browser does not support the video tag.
                 </video>
                 <div class="reel-overlay">
@@ -78,50 +77,25 @@
      
         </div>
     </div>
-
     <script>
-        // Optional: Add click-to-play/pause functionality
-       const video = document.querySelector('video');
+        const videoList = @Html.Raw(Json.Serialize(Model));
+        console.log("videoList", videoList);
 
-        // Function to check if the video is in the viewport
-        function isElementInViewport(el) {
-            const rect = el.getBoundingClientRect();
-            return (
-                rect.top >= 0 &&
-                rect.left >= 0 &&
-                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-            );
-        }
+        window.addEventListener('scroll', function () {
+            const randomIndex = Math.floor(Math.random() * videoList.length);
+            
+            console.log(randomIndex,"random index");
+            var video = videoList[randomIndex];
+            console.log(video.VideoPath,"video.VideoPath");
+            // Optionally replace the video source dynamically
+            const videoTag = document.querySelector('video');
 
-        // Async function to send a request
-        async function sendAsyncRequest() {
-            try {
-                // Replace with your API endpoint
-                    i = rand.Next(1, Model.Count);
-                    RandVideo = Model[i];
-              
-            } catch (error) {
-                console.error('Error sending request:', error);
-            }
-        }
-
-        // Scroll event listener
-        video.addEventListener('scroll', () => {
-            if (isElementInViewport(video)) {
-                // Send async request when video is in view
-                sendAsyncRequest();
-                // Optionally, play the video
-                if (video.paused) {
-                    video.play();
-                }
-            } else {
-                // Optionally, pause the video when out of view
-                if (!video.paused) {
-                    video.pause();
-                }
-            }
+            videoTag.src = '/uploads/' + video.VideoPath;
+            videoTag.load();
+            videoTag.play();
         });
+    </script>
+    <script>
         const video = document.querySelector('video');
         video.addEventListener('click', () => {
             if (video.paused) {
