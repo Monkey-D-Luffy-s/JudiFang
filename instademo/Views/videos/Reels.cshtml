@@ -8,35 +8,26 @@
         var i = rand.Next(0, Model.videos.Count);
         RandVideo = Model.videos[i];
     }
-
 }
 
-<head>
+@section Styles {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap Icons CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
-    <title>@ViewData["Title"]</title>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #000;
-            min-height: 100vh; /* Allow scrolling */
-        }
-
         .Inst-Container {
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: calc(90vh - 70px); /* Adjust for header height */
-            padding: 10px 0px;
+            min-height: calc(100vh - 70px); /* Adjust for header height */
+            padding: 10px 0;
         }
 
         .reel-container {
-            width: 100%;
-            max-width: 450px;
+            width: 90%;
+            max-width: 400px;
+            min-height: auto; /* Cap height at viewport minus header */
             aspect-ratio: 9 / 16;
             background-color: #000;
             position: relative;
@@ -63,16 +54,125 @@
             pointer-events: none;
         }
 
-        .actions{
-            position:absolute;
+        .actions {
+            position: absolute;
             bottom: 5%;
-            left: 90%;
+            right: 10%;
             color: aliceblue;
             font-size: 30px;
+            margin:0;
+            padding:0px;
+        }
+        .Commentdetails{
+            color: white;
+            font-size: 14px;
+            text-align:center;
+            margin:0;
+            padding: -2px 0 0 0;
+        }
+
+        /* Add extra content to enable scrolling */
+        .scrollable-content {
+            min-height: 100vh; /* Ensure content exceeds viewport for scrolling */
+        }
+
+        .modal-backdrop {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent */
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease;
+        }
+
+            .modal-backdrop.show {
+                opacity: 1;
+                visibility: visible;
+            }
+
+        .mod {
+            position: fixed;
+            background-color: black;
+            color: white;
+            bottom: 0;
+            transform: translateY(100%); /* Start below screen */
+            width: 100%;
+            max-width: 400px; /* Match reel-container width */
+            height: 70vh;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            z-index: 1001;
+            transition: transform 0.3s ease-in-out; /* Smooth slide */
+            overflow-y: auto; /* Scrollable content inside modal */
+        }
+
+            .mod.show {
+                transform: translateY(0); /* Slide up to bottom of screen */
+            }
+
+        .modal-content {
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: black;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: #fff;
+        }
+
+        .commentGestures{
+         
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            text-align:center;
+            padding: 4px 12px;
+            gap:5px;
+        }
+
+        .commentInput{
+            width:300px;
+            padding: 4px 12px;
+            border-radius:20px;
+            background-color:gray;
+            color:white;
+        }
+
+        .sendComment{
+            background-color: gray;
+            outline:none;
+            border:none;
+            padding:4px 6px;
+            border-radius: 18x;
+            color:aliceblue;
+        }
+
+        .commentClose{
+            background-color: gray;
+            color: white;
+            outline: none;
+            border:none;
+            border-radius:18px;
+            padding:4px 6px;
+        }
+
+        .sendIcon{
+            border-radius:18px;
         }
     </style>
-</head>
-<body>
+}
+
+<div class="scrollable-content">
     <div class="Inst-Container">
         <div class="reel-container">
             <video autoplay loop playsinline>
@@ -84,30 +184,48 @@
             </div>
             <div class="actions">
                 <div class="flex-column gap-3">
-                    <a href="@Url.Action("Like", "videos",new { id = RandVideo.Id })">
-                        <p><i class="bi bi-hand-thumbs-up"></i></p>
+                    <a href="@Url.Action("Like", "videos", new { id = RandVideo.Id })">
+                        <div class="flex-column gap-0 align-items-center align-text-top">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <p class="Commentdetails">@RandVideo.Likes</p>
+                        </div>
                     </a>
-                    <p class="fs-[16px]">@RandVideo.Likes </p>
-                    <a href="@Url.Action("Like", "videos",new { id = RandVideo.Id })">
+                    <a href="@Url.Action("Like", "videos", new { id = RandVideo.Id })">
                         <p><i class="bi bi-heart"></i></p>
                     </a>
-                    <a href="@Url.Action("MyAction", "MyController",new { id = 5, name = "shiva" })">
-                        <p><i class="bi bi-chat"></i></p>
-                    </a>
-                    @* <a href="@Url.Action("MyAction", "MyController")"> *@
-                        <p><i class="bi bi-share"></i></p>
-                    @* </a> *@
+                    <p><i class="bi bi-chat" id="chat"></i></p>
+
+                    <p><i class="bi bi-share"></i></p>
+                </div>
+               
+            </div>
+            <div class="flex-column justify-content-center align-items-center align-text-top">
+                <div class="mod">
+                   <div class="commentGestures">
+                       <input placeholder="comment" class="commentInput"/>
+                        <button class="sendComment"><p><i class="bi bi-send sendIcon"></i></p></button>
+                        <button class="commentClose" id="modal-close"><i class="bi bi-x-lg"></i></button>
+                   </div>
 
                 </div>
-            </div>
+                </di>
+               
+        
         </div>
     </div>
-   
+    <!-- Optional: Add dummy content to demonstrate scrolling -->
+    
+</div>
 
+@section Scripts {
     <script>
-        const videoList = @Html.Raw(Json.Serialize(Model));
+        const videoList = @Html.Raw(Json.Serialize(Model.videos));
         const videoTag = document.querySelector('video');
         const source = document.getElementById('videoSource');
+        const chat = document.getElementById('chat');
+        const modal = document.querySelector('.mod');
+        const modalClose = document.getElementById('modal-close')
+
 
         function loadRandomVideo() {
             const randomIndex = Math.floor(Math.random() * videoList.length);
@@ -115,6 +233,14 @@
             source.src = '/Uploads/' + video.videoPath;
             videoTag.load();
             videoTag.play();
+
+            // Update action links dynamically
+            const likeLink1 = document.querySelector('.actions a[href*="Like"]');
+            const likeLink2 = document.querySelector('.actions a[href*="Like"] + p + a');
+            const likesDisplay = document.querySelector('.actions p.fs-2');
+            likeLink1.href = `/videos/Like/${video.id}`;
+            likeLink2.href = `/videos/Like/${video.id}`;
+            likesDisplay.textContent = video.likes;
         }
 
         let touchStartY = 0;
@@ -151,5 +277,16 @@
                 videoTag.pause();
             }
         });
+
+        chat.addEventListener('click', () => {
+
+            modal.classList.add('show');
+        })
+
+        modalClose.addEventListener('click', () => {
+
+            modal.classList.remove('show');
+        });
+
     </script>
-</body>
+}
