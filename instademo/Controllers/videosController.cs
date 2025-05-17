@@ -2,6 +2,7 @@
 using instademo.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 namespace instademo.Controllers
 {
@@ -40,9 +41,11 @@ namespace instademo.Controllers
                 ViewBag.Message = "File uploaded successfully!";
                 VideoClass obj = new VideoClass()
                 {
-                    Id = Guid.NewGuid(), 
+                    Id = Guid.NewGuid(),
                     VideoName = Path.GetFileName(file.FileName),
-                    VideoPath = newFileName
+                    VideoPath = newFileName,
+                    Likes = 0,
+
                 };
                 await context.Reels.AddAsync(obj);
                 await context.SaveChangesAsync();
@@ -62,7 +65,35 @@ namespace instademo.Controllers
         public async Task<IActionResult> Reels()
         {
             List<VideoClass> reels = await context.Reels.ToListAsync();
-            return View(reels);
+            var rand = new Random();
+            var index = rand.Next(0, reels.Count);
+            VideoClass current = reels[index];
+
+            var obj = await buildInitialModal(reels,current);
+            return View(obj);
+        }
+
+        public async Task<IActionResult> Like(Guid id)
+        {
+            VideoClass current = await context.Reels.FirstOrDefaultAsync(x => x.Id == id);
+            current.Likes = current.Likes + 1;
+            await context.SaveChangesAsync();
+            var obj = await buildInitialModal(null, current);
+            return View("Reels", obj);
+        }
+
+        public async Task<InitialVideoModal> buildInitialModal(List<VideoClass>? reels, VideoClass current)
+        {
+            if(reels == null)
+            {
+                reels = await context.Reels.ToListAsync();
+            }
+            InitialVideoModal obj = new InitialVideoModal()
+            {
+                videos = reels,
+                startVideo = current
+            };
+            return obj;
         }
     }
 }
