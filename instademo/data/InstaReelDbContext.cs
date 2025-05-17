@@ -11,5 +11,7 @@ namespace instademo.data
         }
 
         public DbSet<VideoClass> Reels { get; set; }
+
+        public DbSet<Comments> Comments { get; set; }
     }
 }

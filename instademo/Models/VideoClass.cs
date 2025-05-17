@@ -12,5 +12,8 @@ namespace instademo.Models
         [Required]
         public string VideoPath { get; set; }
 
+        [Required]
+        public int Likes { get; set; }
+
     }
 }
