@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("instademo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2b92bec613672025ec6ff1084f34b39da2d241d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0353d05b7d1bf86aa8d937df9b09de5a801fcd71")]
 [assembly: System.Reflection.AssemblyProductAttribute("instademo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("instademo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

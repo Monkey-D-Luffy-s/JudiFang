@@ -1,17 +1,9 @@
 ﻿@model List<instademo.Models.VideoClass>
 @{
-    ViewData["Title"] = "Reel View";
-}
-@{
     ViewData["Title"] = "Instagram Reels Style Video";
-}
-
-@{
     var rand = new Random();
-    ViewData["Rand"] = rand;
-    var i = rand.Next(1, Model.Count);
+    var i = rand.Next(0, Model.Count); // Changed to 0 to avoid index out of range
     var RandVideo = Model[i];
-
 }
 
 <head>
@@ -19,89 +11,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"]</title>
     <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            height: 100vh;
+            overflow: hidden; /* Prevent body scrolling */
+        }
+
         .Inst-Container {
-        margin: 0;
-        padding: 0;
-        background-color: #000;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
         }
 
         .reel-container {
-        width: 100%;
-        max-width: 450px; /* Typical mobile width for Reels */
-        aspect-ratio: 9 / 16; /* Instagram Reels aspect ratio */
-        background-color: #000;
-        position: relative;
-        overflow: hidden;
-        border-radius: 10px; /* Optional: rounded corners like Instagram */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 450px; /* Typical mobile width for Reels */
+            aspect-ratio: 9 / 16; /* Instagram Reels aspect ratio */
+            background-color: #000;
+            position: relative;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            touch-action: pan-y; /* Allow vertical touch scrolling */
         }
 
         video {
-        width: 100%;
-        height: 100%;
-        object-fit: cover; /* Ensures video fills container without distortion */
-        display: block;
+            width: 100%;
+            height: 90%;
+            object-fit: cover; /* Ensures video fills container */
+            display: block;
         }
 
-        /* Optional: Overlay for controls or text (like Instagram captions) */
         .reel-overlay {
-        position: absolute;
-        bottom: 20px;
-        left: 20px;
-        color: #fff;
-        font-family: Arial, sans-serif;
-        font-size: 16px;
-        text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
-        pointer-events: none; /* Prevents overlay from blocking video controls */
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+            pointer-events: none;
         }
-
     </style>
 </head>
-<body class="position-fixed">
-
+<body>
     <div class="Inst-Container">
-        <div class="reel-container" >
-
-                <video autoplay loop playsinline >
-                    <source src="/uploads/@RandVideo.VideoPath" type="video/mp4" onscroll="console.log('scrolling')">
-                    Your browser does not support the video tag.
-                </video>
-                <div class="reel-overlay">
-                    <p>Sample Instagram Reel</p>
-                </div>
-     
+        <div class="reel-container">
+            <video autoplay loop playsinline>
+                <source id="videoSource" src="/Uploads/@RandVideo.VideoPath" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="reel-overlay">
+                <p>Sample Instagram Reel</p>
+            </div>
         </div>
     </div>
+
     <script>
         const videoList = @Html.Raw(Json.Serialize(Model));
-        console.log("videoList", videoList);
+        const videoTag = document.querySelector('video');
+        const source = document.getElementById('videoSource');
 
-        window.addEventListener('scroll', function () {
+        // Function to load a new random video
+        function loadRandomVideo() {
             const randomIndex = Math.floor(Math.random() * videoList.length);
-            
-            console.log(randomIndex,"random index");
-            var video = videoList[randomIndex];
-            console.log(video.VideoPath,"video.VideoPath");
-            // Optionally replace the video source dynamically
-            const videoTag = document.querySelector('video');
-
-            videoTag.src = '/uploads/' + video.VideoPath;
-            videoTag.load();
+            const video = videoList[randomIndex];
+            source.src = '/Uploads/' + video.videoPath; // Ensure property name matches model
+            videoTag.load(); // Reload video with new source
             videoTag.play();
+        }
+
+        // Swipe detection
+        let touchStartY = 0;
+        let touchEndY = 0;
+
+        document.addEventListener('touchstart', (e) => {
+            touchStartY = e.changedTouches[0].screenY;
         });
-    </script>
-    <script>
-        const video = document.querySelector('video');
-        video.addEventListener('click', () => {
-            if (video.paused) {
-                video.play();
+
+        document.addEventListener('touchend', (e) => {
+            touchEndY = e.changedTouches[0].screenY;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            const swipeDistance = touchStartY - touchEndY;
+            const minSwipeDistance = 50; // Minimum distance to consider a swipe
+
+            if (swipeDistance > minSwipeDistance) {
+                // Swipe up - load next video
+                loadRandomVideo();
+            } else if (swipeDistance < -minSwipeDistance) {
+                // Swipe down - load previous video (or random for simplicity)
+                loadRandomVideo();
+            }
+        }
+
+        // Optional: Mouse wheel support for desktop
+        document.addEventListener('wheel', (e) => {
+            if (e.deltaY > 50 || e.deltaY < -50) { // Adjust sensitivity
+                loadRandomVideo();
+            }
+        });
+
+        // Play/pause on click
+        videoTag.addEventListener('click', () => {
+            if (videoTag.paused) {
+                videoTag.play();
             } else {
-                video.pause();
+                videoTag.pause();
             }
         });
     </script>

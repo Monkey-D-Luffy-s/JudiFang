@@ -1,320 +1,332 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\instademo.bundle.scp.css",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\instademo.bundle.scp.css",
       "PackagePath": "staticwebassets\\instademo.e5s2qulete.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\uploads\\1a60b575-a83f-4768-b8e5-f1caea228a71.mp4",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\1a60b575-a83f-4768-b8e5-f1caea228a71.mp4",
       "PackagePath": "staticwebassets\\uploads\\1a60b575-a83f-4768-b8e5-f1caea228a71.mp4"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\uploads\\2640486c-153c-4182-9cde-68c0293cdd94.mp4",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\2640486c-153c-4182-9cde-68c0293cdd94.mp4",
       "PackagePath": "staticwebassets\\uploads\\2640486c-153c-4182-9cde-68c0293cdd94.mp4"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\uploads\\329b35c7-6bc8-46dc-8709-0af9521b714a.mp4",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\329b35c7-6bc8-46dc-8709-0af9521b714a.mp4",
       "PackagePath": "staticwebassets\\uploads\\329b35c7-6bc8-46dc-8709-0af9521b714a.mp4"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\uploads\\3f3ef073-f7d5-46e8-900f-42f6ac23b5c2.mp4",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\3f3ef073-f7d5-46e8-900f-42f6ac23b5c2.mp4",
       "PackagePath": "staticwebassets\\uploads\\3f3ef073-f7d5-46e8-900f-42f6ac23b5c2.mp4"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\uploads\\761f190e-3cb1-41f0-ba15-814479cbac7a.mp4",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\761f190e-3cb1-41f0-ba15-814479cbac7a.mp4",
       "PackagePath": "staticwebassets\\uploads\\761f190e-3cb1-41f0-ba15-814479cbac7a.mp4"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\uploads\\7b6d4de0-d342-4693-a758-16303a9ae5ff.mp4",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\7b6d4de0-d342-4693-a758-16303a9ae5ff.mp4",
       "PackagePath": "staticwebassets\\uploads\\7b6d4de0-d342-4693-a758-16303a9ae5ff.mp4"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\uploads\\91b14fca-39c8-44cb-b30d-66645aa71aa2.mp4",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\91a1a3e0-5ad5-4556-b1d8-b156a8fe59c7.mp4",
+      "PackagePath": "staticwebassets\\uploads\\91a1a3e0-5ad5-4556-b1d8-b156a8fe59c7.mp4"
+    },
+    {
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\91b14fca-39c8-44cb-b30d-66645aa71aa2.mp4",
       "PackagePath": "staticwebassets\\uploads\\91b14fca-39c8-44cb-b30d-66645aa71aa2.mp4"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\uploads\\924fca6c-bd6c-448c-b6f6-2f86f056028a.mp4",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\924fca6c-bd6c-448c-b6f6-2f86f056028a.mp4",
       "PackagePath": "staticwebassets\\uploads\\924fca6c-bd6c-448c-b6f6-2f86f056028a.mp4"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\uploads\\9eb83bb7-c13d-4145-a0bc-7b6a86094430.mp4",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\9eb83bb7-c13d-4145-a0bc-7b6a86094430.mp4",
       "PackagePath": "staticwebassets\\uploads\\9eb83bb7-c13d-4145-a0bc-7b6a86094430.mp4"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\uploads\\a1efd741-51ca-416b-8039-c229fa60bd8f.mp4",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\a1efd741-51ca-416b-8039-c229fa60bd8f.mp4",
       "PackagePath": "staticwebassets\\uploads\\a1efd741-51ca-416b-8039-c229fa60bd8f.mp4"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\uploads\\a340bd12-1e49-4537-8142-7431fcfbb398.mp4",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\a340bd12-1e49-4537-8142-7431fcfbb398.mp4",
       "PackagePath": "staticwebassets\\uploads\\a340bd12-1e49-4537-8142-7431fcfbb398.mp4"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\uploads\\b327e4f0-545b-4108-be06-4065380e9583.mp4",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\b327e4f0-545b-4108-be06-4065380e9583.mp4",
       "PackagePath": "staticwebassets\\uploads\\b327e4f0-545b-4108-be06-4065380e9583.mp4"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\uploads\\b7ec1d81-8909-4555-8dc1-f0d8caa931ab.mp4",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\b7ec1d81-8909-4555-8dc1-f0d8caa931ab.mp4",
       "PackagePath": "staticwebassets\\uploads\\b7ec1d81-8909-4555-8dc1-f0d8caa931ab.mp4"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\uploads\\bc9f396e-26da-4266-845a-9a064dc0abf4.mp4",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\bc9f396e-26da-4266-845a-9a064dc0abf4.mp4",
       "PackagePath": "staticwebassets\\uploads\\bc9f396e-26da-4266-845a-9a064dc0abf4.mp4"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\uploads\\c7751e72-b3a4-4c4d-9525-6e9f267fa640.mp4",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\c7751e72-b3a4-4c4d-9525-6e9f267fa640.mp4",
       "PackagePath": "staticwebassets\\uploads\\c7751e72-b3a4-4c4d-9525-6e9f267fa640.mp4"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\uploads\\c8b00e8e-4db6-43c1-9328-b0b79e5ffd00.mp4",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\c8b00e8e-4db6-43c1-9328-b0b79e5ffd00.mp4",
       "PackagePath": "staticwebassets\\uploads\\c8b00e8e-4db6-43c1-9328-b0b79e5ffd00.mp4"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\uploads\\c9d74fed-c183-46e5-bb1d-4397802d9637.mp4",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\c9d74fed-c183-46e5-bb1d-4397802d9637.mp4",
       "PackagePath": "staticwebassets\\uploads\\c9d74fed-c183-46e5-bb1d-4397802d9637.mp4"
     },
     {
-      "Id": "C:\\Users\\Hero\\Source\\Repos\\JudiFang2\\instademo\\wwwroot\\uploads\\e6dd9876-a8ef-4ea2-851b-6bf500442f3f.mp4",
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\dc46ed5d-1eff-43aa-ba42-7d7250b8332a.mp4",
+      "PackagePath": "staticwebassets\\uploads\\dc46ed5d-1eff-43aa-ba42-7d7250b8332a.mp4"
+    },
+    {
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\e6dd9876-a8ef-4ea2-851b-6bf500442f3f.mp4",
       "PackagePath": "staticwebassets\\uploads\\e6dd9876-a8ef-4ea2-851b-6bf500442f3f.mp4"
+    },
+    {
+      "Id": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\f9f86a44-50d1-4c69-a9f4-5b05e4255323.mp4",
+      "PackagePath": "staticwebassets\\uploads\\f9f86a44-50d1-4c69-a9f4-5b05e4255323.mp4"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.instademo.props",
