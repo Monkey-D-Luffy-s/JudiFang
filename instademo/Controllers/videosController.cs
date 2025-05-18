@@ -2,6 +2,7 @@
 using instademo.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualBasic;
 using System.Threading.Tasks;
 
 namespace instademo.Controllers
@@ -88,12 +89,36 @@ namespace instademo.Controllers
             {
                 reels = await context.Reels.ToListAsync();
             }
+            List<Comments> comments = await context.Comments.ToListAsync();
+            List<Comments> reelComments = comments.Where(x => x.VideoId == current.Id).ToList();
             InitialVideoModal obj = new InitialVideoModal()
             {
                 videos = reels,
-                startVideo = current
+                comments = comments,
+                startVideo = current,
             };
             return obj;
         }
+
+        [HttpPost]
+        public async Task<IActionResult> SendComment( string msg, string Id)
+        {
+            DateTime currentTime = DateTime.Now;
+            Comments comments = new Comments()
+            {
+                Id = Guid.NewGuid(),
+                VideoId = Guid.Parse(Id),
+                Name = "person1",
+                Comment = msg,
+                Date = currentTime.GetDateTimeFormats().First().ToString(),
+            };
+            await context.Comments.AddAsync(comments);
+            await context.SaveChangesAsync();
+            VideoClass current = await context.Reels.FirstOrDefaultAsync(x => x.Id == Guid.Parse(Id));
+            var obj = await buildInitialModal(null, current);
+            return View("Reels", obj);
+        }
+
+        
     }
 }

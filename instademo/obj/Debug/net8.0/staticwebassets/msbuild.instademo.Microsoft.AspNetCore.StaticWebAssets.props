@@ -1116,6 +1116,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1056047b-35ca-4b66-98ff-9379484ff256.mp4'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\11d1c376-4237-4992-a04e-3c3f70cda530.mp4'))">
+      <SourceType>Package</SourceType>
+      <SourceId>instademo</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/instademo</BasePath>
+      <RelativePath>uploads/11d1c376-4237-4992-a04e-3c3f70cda530.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2w0n38sk7f</Fingerprint>
+      <Integrity>Qie4dZl6Og9YZpdYevLEEZjGqAdvy3ByoKeDWVlkIkw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\11d1c376-4237-4992-a04e-3c3f70cda530.mp4'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1a60b575-a83f-4768-b8e5-f1caea228a71.mp4'))">
       <SourceType>Package</SourceType>
       <SourceId>instademo</SourceId>
@@ -1170,6 +1188,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\329b35c7-6bc8-46dc-8709-0af9521b714a.mp4'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\38506f86-2182-4c8a-a8f8-3e3227f9b687.mp4'))">
+      <SourceType>Package</SourceType>
+      <SourceId>instademo</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/instademo</BasePath>
+      <RelativePath>uploads/38506f86-2182-4c8a-a8f8-3e3227f9b687.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>spgodlzvys</Fingerprint>
+      <Integrity>YAT31Tk2Q/r4e4yU7vg9hIR0WkujGONU+AWDffy5qto=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\38506f86-2182-4c8a-a8f8-3e3227f9b687.mp4'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3d6ce62f-fdde-474b-b5e4-4a02dfa04500.mp4'))">
+      <SourceType>Package</SourceType>
+      <SourceId>instademo</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/instademo</BasePath>
+      <RelativePath>uploads/3d6ce62f-fdde-474b-b5e4-4a02dfa04500.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7jnb1hva9t</Fingerprint>
+      <Integrity>40AFlNRRz0t9vcAeK3Atkwfj0JboOKeW6U91Yx/oZFs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3d6ce62f-fdde-474b-b5e4-4a02dfa04500.mp4'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3f3ef073-f7d5-46e8-900f-42f6ac23b5c2.mp4'))">
       <SourceType>Package</SourceType>
       <SourceId>instademo</SourceId>
@@ -1187,6 +1241,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3f3ef073-f7d5-46e8-900f-42f6ac23b5c2.mp4'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\60fea29b-9900-49f1-9b54-87092ce74014.mp4'))">
+      <SourceType>Package</SourceType>
+      <SourceId>instademo</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/instademo</BasePath>
+      <RelativePath>uploads/60fea29b-9900-49f1-9b54-87092ce74014.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>spgodlzvys</Fingerprint>
+      <Integrity>YAT31Tk2Q/r4e4yU7vg9hIR0WkujGONU+AWDffy5qto=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\60fea29b-9900-49f1-9b54-87092ce74014.mp4'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\761f190e-3cb1-41f0-ba15-814479cbac7a.mp4'))">
       <SourceType>Package</SourceType>
