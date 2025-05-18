@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0HkgLEmF6sOgvzUagiZAH3wlIWhzsQK4OEGL29pLUaY=",
+  "Hash": "L4RduRdZldg4XiHVQPkh2cqwhQEIWYAqtcLfiYlT9yw=",
   "Source": "instademo",
   "BasePath": "_content/instademo",
   "Mode": "Default",
@@ -1340,6 +1340,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\1056047b-35ca-4b66-98ff-9379484ff256.mp4"
     },
     {
+      "Identity": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\11d1c376-4237-4992-a04e-3c3f70cda530.mp4",
+      "SourceId": "instademo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\",
+      "BasePath": "_content/instademo",
+      "RelativePath": "uploads/11d1c376-4237-4992-a04e-3c3f70cda530#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2w0n38sk7f",
+      "Integrity": "Qie4dZl6Og9YZpdYevLEEZjGqAdvy3ByoKeDWVlkIkw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\11d1c376-4237-4992-a04e-3c3f70cda530.mp4"
+    },
+    {
       "Identity": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\1a60b575-a83f-4768-b8e5-f1caea228a71.mp4",
       "SourceId": "instademo",
       "SourceType": "Discovered",
@@ -1403,6 +1424,48 @@
       "OriginalItemSpec": "wwwroot\\uploads\\329b35c7-6bc8-46dc-8709-0af9521b714a.mp4"
     },
     {
+      "Identity": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\38506f86-2182-4c8a-a8f8-3e3227f9b687.mp4",
+      "SourceId": "instademo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\",
+      "BasePath": "_content/instademo",
+      "RelativePath": "uploads/38506f86-2182-4c8a-a8f8-3e3227f9b687#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "spgodlzvys",
+      "Integrity": "YAT31Tk2Q/r4e4yU7vg9hIR0WkujGONU+AWDffy5qto=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\38506f86-2182-4c8a-a8f8-3e3227f9b687.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\3d6ce62f-fdde-474b-b5e4-4a02dfa04500.mp4",
+      "SourceId": "instademo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\",
+      "BasePath": "_content/instademo",
+      "RelativePath": "uploads/3d6ce62f-fdde-474b-b5e4-4a02dfa04500#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7jnb1hva9t",
+      "Integrity": "40AFlNRRz0t9vcAeK3Atkwfj0JboOKeW6U91Yx/oZFs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\3d6ce62f-fdde-474b-b5e4-4a02dfa04500.mp4"
+    },
+    {
       "Identity": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\3f3ef073-f7d5-46e8-900f-42f6ac23b5c2.mp4",
       "SourceId": "instademo",
       "SourceType": "Discovered",
@@ -1422,6 +1485,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\3f3ef073-f7d5-46e8-900f-42f6ac23b5c2.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\60fea29b-9900-49f1-9b54-87092ce74014.mp4",
+      "SourceId": "instademo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\",
+      "BasePath": "_content/instademo",
+      "RelativePath": "uploads/60fea29b-9900-49f1-9b54-87092ce74014#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "spgodlzvys",
+      "Integrity": "YAT31Tk2Q/r4e4yU7vg9hIR0WkujGONU+AWDffy5qto=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\60fea29b-9900-49f1-9b54-87092ce74014.mp4"
     },
     {
       "Identity": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\761f190e-3cb1-41f0-ba15-814479cbac7a.mp4",
@@ -6991,6 +7075,88 @@
       ]
     },
     {
+      "Route": "uploads/11d1c376-4237-4992-a04e-3c3f70cda530.2w0n38sk7f.mp4",
+      "AssetFile": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\11d1c376-4237-4992-a04e-3c3f70cda530.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2879690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qie4dZl6Og9YZpdYevLEEZjGqAdvy3ByoKeDWVlkIkw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 06:35:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2w0n38sk7f"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/11d1c376-4237-4992-a04e-3c3f70cda530.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qie4dZl6Og9YZpdYevLEEZjGqAdvy3ByoKeDWVlkIkw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/11d1c376-4237-4992-a04e-3c3f70cda530.mp4",
+      "AssetFile": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\11d1c376-4237-4992-a04e-3c3f70cda530.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2879690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qie4dZl6Og9YZpdYevLEEZjGqAdvy3ByoKeDWVlkIkw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 06:35:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qie4dZl6Og9YZpdYevLEEZjGqAdvy3ByoKeDWVlkIkw="
+        }
+      ]
+    },
+    {
       "Route": "uploads/1a60b575-a83f-4768-b8e5-f1caea228a71.503wkrixfq.mp4",
       "AssetFile": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\1a60b575-a83f-4768-b8e5-f1caea228a71.mp4",
       "Selectors": [],
@@ -7237,6 +7403,170 @@
       ]
     },
     {
+      "Route": "uploads/38506f86-2182-4c8a-a8f8-3e3227f9b687.mp4",
+      "AssetFile": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\38506f86-2182-4c8a-a8f8-3e3227f9b687.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1700148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YAT31Tk2Q/r4e4yU7vg9hIR0WkujGONU+AWDffy5qto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 06:35:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YAT31Tk2Q/r4e4yU7vg9hIR0WkujGONU+AWDffy5qto="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/38506f86-2182-4c8a-a8f8-3e3227f9b687.spgodlzvys.mp4",
+      "AssetFile": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\38506f86-2182-4c8a-a8f8-3e3227f9b687.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1700148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YAT31Tk2Q/r4e4yU7vg9hIR0WkujGONU+AWDffy5qto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 06:35:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "spgodlzvys"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/38506f86-2182-4c8a-a8f8-3e3227f9b687.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YAT31Tk2Q/r4e4yU7vg9hIR0WkujGONU+AWDffy5qto="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3d6ce62f-fdde-474b-b5e4-4a02dfa04500.7jnb1hva9t.mp4",
+      "AssetFile": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\3d6ce62f-fdde-474b-b5e4-4a02dfa04500.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6704491"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"40AFlNRRz0t9vcAeK3Atkwfj0JboOKeW6U91Yx/oZFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 06:35:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7jnb1hva9t"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/3d6ce62f-fdde-474b-b5e4-4a02dfa04500.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-40AFlNRRz0t9vcAeK3Atkwfj0JboOKeW6U91Yx/oZFs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3d6ce62f-fdde-474b-b5e4-4a02dfa04500.mp4",
+      "AssetFile": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\3d6ce62f-fdde-474b-b5e4-4a02dfa04500.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6704491"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"40AFlNRRz0t9vcAeK3Atkwfj0JboOKeW6U91Yx/oZFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 06:35:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-40AFlNRRz0t9vcAeK3Atkwfj0JboOKeW6U91Yx/oZFs="
+        }
+      ]
+    },
+    {
       "Route": "uploads/3f3ef073-f7d5-46e8-900f-42f6ac23b5c2.503wkrixfq.mp4",
       "AssetFile": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\3f3ef073-f7d5-46e8-900f-42f6ac23b5c2.mp4",
       "Selectors": [],
@@ -7315,6 +7645,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-NRcD27E8CuwHlI6VRwwl89n5A/1yr5exN8gDjKBH5rw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/60fea29b-9900-49f1-9b54-87092ce74014.mp4",
+      "AssetFile": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\60fea29b-9900-49f1-9b54-87092ce74014.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1700148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YAT31Tk2Q/r4e4yU7vg9hIR0WkujGONU+AWDffy5qto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 06:35:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YAT31Tk2Q/r4e4yU7vg9hIR0WkujGONU+AWDffy5qto="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/60fea29b-9900-49f1-9b54-87092ce74014.spgodlzvys.mp4",
+      "AssetFile": "C:\\Users\\v-sbilla\\Source\\Repos\\JudiFang\\instademo\\wwwroot\\uploads\\60fea29b-9900-49f1-9b54-87092ce74014.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1700148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YAT31Tk2Q/r4e4yU7vg9hIR0WkujGONU+AWDffy5qto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 06:35:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "spgodlzvys"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/60fea29b-9900-49f1-9b54-87092ce74014.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YAT31Tk2Q/r4e4yU7vg9hIR0WkujGONU+AWDffy5qto="
         }
       ]
     },
